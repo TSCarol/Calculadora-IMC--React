@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.titulo {
+    margin: 20px;
+    color: #2a3457;
+}
+
+.table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: #a4a4bf;
+}
+
+.table th, .table td {
+    border: 1px solid #2a3457;
+    padding: 10px;
+}
+
+.table th {
+    background-color: #16235A;
+    color: #f2eaed;
+    font-weight: bold;
+}
+
+.calculator {
+    background-color: #888c46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 5px;
+    color: #2a3457;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.espaco {
+    margin-top: 5px;
+}
+ 
+button {
+    width: 40%;
+    margin: 10px;
+    background-color: #2a3457;
+    color: #f2eaed;
+}
